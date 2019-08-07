@@ -2,4 +2,4 @@ FROM nginx:1.13.8
 WORKDIR /app
 COPY ./hello /app/hello
 EXPOSE 8085
-CMD /app/hello
+ENTRYPOINT ["/usr/bin/hello"]
