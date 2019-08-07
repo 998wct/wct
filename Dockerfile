@@ -1,5 +1,5 @@
 FROM nginx:1.13.8
-WORKDIR .
-COPY ./hello/hello.go .
+WORKDIR /app
+COPY ./hello /app/hello
 EXPOSE 8085
-CMD ./hello.go
+CMD /app/hello
