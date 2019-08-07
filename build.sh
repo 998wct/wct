@@ -1,3 +1,3 @@
 #!/bin/bash
 rm -f bin/wct
-go build -o bin/wct/hello.go
+go build -o bin/wct/hello/hello.go
